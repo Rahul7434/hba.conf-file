@@ -10,10 +10,12 @@ Format: The file contains lines that define connection rules, each consisting of
  
  
 2. Key Components of Each Line
-```
-Each line in pg_hba.conf defines a rule for client authentication. The line format is:
+
+- Each line in pg_hba.conf defines a rule for client authentication. The line format is:
  
-# TYPE  DATABASE        USER            ADDRESS                 METHOD [OPTIONS]
+- # TYPE  DATABASE        USER            ADDRESS                 METHOD [OPTIONS]
+```
+
  
 a. TYPE
  
